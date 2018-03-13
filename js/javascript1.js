@@ -6,10 +6,26 @@ function myFunction() {
   let aleatorio2=Math.floor(Math.random()*(4-0)+0);
   let result= numeros [aleatorio1];
   let result2= formas [aleatorio2];
-console.log(result);
+  const num=document.getElementById("num");
+  let figA=document.getElementById("figA");
+  let figB=document.getElementById("figB");
+   //console.log(figB)
 
-    document.getElementById("num").innerHTML = result
-    document.getElementById("figA").innerHTML = result2
-    document.getElementById("figB").innerHTML = result2
- 
+    num.innerHTML = result;
+    figA.innerHTML = result2;
+    figB.innerHTML = result2;
+ 	//console.dir (document.getElementById("figA"))
+
+ 	if (figA.innerHTML==="♠" || figB.innerHTML==="♣"){
+ 		figA.className="black"
+ 		figB.className="black"  
+ 	}
+ 	else {
+ 		figA.className=" "
+ 		figB.className=" " 
+ 	}
+
+console.log(figA.innerHTML==="♠",figB.innerHTML==="♣")
 }
+
+

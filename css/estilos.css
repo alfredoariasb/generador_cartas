@@ -1,70 +1,57 @@
 body, html {
-	margin: 0;
-	background-image: url(../img/cartas-poker.jpg);
-}
+  margin: 0;
+  background-image: url(../img/cartas-poker.jpg); }
 
 .carta {
-	width: 100%;
-
-
-}
+  width: 100%; }
 
 .cabecera {
-	background: #384434;
-	width: 1000px;
-	text-align: center;
-}
+  background: #384434;
+  width: 1000px;
+  text-align: center; }
 
-.cabecera h1{
-	color: white;
-	text-shadow: 2px 2px 8px #D9DB44;
-}
-
+.cabecera h1 {
+  color: white;
+  text-shadow: 2px 2px 8px #D9DB44; }
 
 .carta1 {
-	margin-top: 1%;
-	height: 500px;
-	width: 30%;
-	border: gray solid 1px;
-	box-shadow: 5px 11px;
-	background: #E3E0E0;
-	border-radius: 3%;
-	margin-left: auto;
-	margin-right: auto;
-
-}
+  margin-top: 1%;
+  height: 500px;
+  width: 30%;
+  border: gray solid 1px;
+  box-shadow: 5px 11px;
+  background: #E3E0E0;
+  border-radius: 3%;
+  margin-left: auto;
+  margin-right: auto; }
 
 .boton {
-	
-	text-align: center;
-	margin-top: 2%;
-
-}
+  text-align: center;
+  margin-top: 2%; }
 
 #num {
-	font-size: 120px;
-	text-align: center;
-	font-weight: 900;
-	margin-top: 15%;
-	color: red;
-}
+  font-size: 120px;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 15%;
+  color: red; }
 
-#figA{
-	color: red;
-	font-size: 80px;
-	margin-top: 0.1px;
-	font-weight: 900px;
-	margin-bottom: 4px;
-	margin-left: 4px;
-}
+#figA {
+  color: red;
+  font-size: 80px;
+  margin-top: 0.1px;
+  font-weight: 900px;
+  margin-bottom: 4px;
+  margin-left: 4px; }
 
-#figB{
-	color: red;
-	font-size: 80px;
-	margin-top: 0.1px;
-	font-weight: 900px;
-	float: right;
+#figB {
+  color: red;
+  font-size: 80px;
+  margin-top: 0.1px;
+  font-weight: 900px;
+  float: right; }
 
-}
+.black {
+  color: black !important; }
 
-
+/*# sourceMappingURL=estilos.css.map */
